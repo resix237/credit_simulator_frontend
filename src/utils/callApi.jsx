@@ -1,6 +1,6 @@
 import axios from "axios";
 import { useLocalStorage } from "../hooks";
-export let url = "http://127.0.0.1:8000/api/";
+export let url = "https://resixpr.pythonanywhere.com/api/";
 export default function CallApi(auth, route, methode, query, body) {
 
     let headers = {};

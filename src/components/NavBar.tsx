@@ -77,7 +77,7 @@ function NavBar() {
                             (infoUser === null) ? (
                                 <>
                                     <h4 className='lg:my-0 my-2'>
-                                        <a href="/">
+                                        <a href="/register">
                                             S’inscrire   /
                                         </a>
 
